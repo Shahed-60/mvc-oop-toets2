@@ -2,7 +2,7 @@
 
 class Vulkanen extends BaseController
 {
-    private $vulkanen;
+    private $vulkaanModel;
     public function __construct()
     {
         $this->vulkaanModel = $this->model('VulkaanModel');
@@ -19,7 +19,7 @@ class Vulkanen extends BaseController
                     <td>$vulkaan->Naam</td>
                     <td>$vulkaan->Hoogte</td>
                     <td>$vulkaan->Land</td>
-                    <td>$vulkaan->JaarLaatsteUitbasrting</td>
+                    <td>$vulkaan->JaarLaatsteUitbarsting</td>
                     <td>$vulkaan->AantalSlachtoffers</td>
                     
                     </tr>";

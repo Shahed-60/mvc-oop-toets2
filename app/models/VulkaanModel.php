@@ -1,6 +1,6 @@
 <?php
 
-class vulkaanModel
+class VulkaanModel
 {
     private $db;
 
@@ -10,12 +10,12 @@ class vulkaanModel
         $this->db = new Database();
     }
 
-    public function getvulkaan()
+    public function getVulkaan()
     {
         $sql = "SELECT Naam
-                    ,  Hoogte
+                    , Hoogte
                     ,Land
-                    ,JaarLaatsteUitbasrting
+                    ,JaarLaatsteUitbarsting
                     ,AantalSlachtoffers
             FROM    Vulkaan";
 
