@@ -18,6 +18,7 @@
     <a href='http://www.mvc-oop-proeftoets.com/Voetballer/index'>Top 5 best betaalde voetballers ter wereld
     </a><br>
     <a href='http://www.mvc-oop-toets.com/Reuzenrad/index'>Top 5 hoogste reuzenrad ter werled</a><br>
+    <a href='http://www.mvc-oop-toets2.com/Vulkaan/index'>Top 5 actiefste Vulkaan ter werled</a><br>
 </body>
 <!--  -->
 
